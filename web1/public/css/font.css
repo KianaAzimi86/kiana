@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "vazir";
+  src: url('../font/Vazir.ttf');
+}
+@font-face {
+  font-family: "Samim";
+  src: url('../font/Samim.ttf');
+}
+@font-face { 
+  font-family: "Yekan";
+  src: url('../font/Yekan.ttf');
+}
+@font-face {
+  font-family: "Tanha";
+  src: url('../font/Tanha.ttf');
+}
+@font-face { 
+  font-family: "kiana";
+  src: url('../font/Sahel.ttf');
+}
+@font-face{
+  font-family:"mahsa";
+  src: url('../font/Far_Mahsa.ttf');
+}

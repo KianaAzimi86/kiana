@@ -1,0 +1,21 @@
+ns1: ns165.pws-dns.net
+ns2: ns166.pws-dns.net
+
+Parswebserver password all: Ki@n@_123456
+
+
+
+irnic:
+what first school?  Shahid sabory
+
+
+ftp:
+password: kikizmi86
+
+
+FTP Username: kiana@www20.ir
+FTP server: ftp.www20.ir
+FTP & explicit FTPS port:  21
+
+
+irnic pass: Ki@n@_123456

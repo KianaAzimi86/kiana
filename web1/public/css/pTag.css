@@ -1,0 +1,28 @@
+.PARVIN{
+    position: absolute;
+    width: 500PX;
+    height: 300PX;
+    font-family:'Samim' ;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    display: flex;
+}
+.P_DIV{
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    /* display: flex; */
+    /* position: absolute; */
+    width: 300px;
+    height: 200PX;
+    border-color: rgb(74, 82, 3);
+    border: 10Px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgba(192, 245, 3, 0.753);
+}

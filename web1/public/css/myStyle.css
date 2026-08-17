@@ -1,0 +1,148 @@
+.h1 {
+            color: #00030a;
+            background-color: #d49649;
+            border: 5px solid #f97316;
+            height: 150px;
+            width: 500px;
+            padding: 20px;
+            font-family:'vazir';
+            font-size: 2rem;
+            text-shadow: 0 2px 8px #111827;
+            border-radius: 50%;
+            direction: rtl;
+            text-align: center;;
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            margin-left: 25%;
+            margin-right: 40%;
+            
+            
+        }
+
+        .myH1 {
+            text-shadow: 0 2px 8px #fa6c0e;
+
+        }
+        .h1-2 {
+            color: #090c11;
+            background-color: #545a64;
+            border: 5px solid #f9165a;
+            height: 80px;
+            width: 500px;
+            padding: 20px;
+            font-family:'vazir';
+            font-size: 2rem;
+            text-shadow: 0 2px 8px #111827;
+            border-radius: 80%;
+            direction: rtl;
+            text-align: center;;
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            margin-left: 25%;
+            margin-right: 40%;
+            
+            
+        }
+        .h1:hover {
+            text-shadow: none;
+            color:rgb(243, 3, 3);
+        }
+        #h2{
+            color: #232f4b;
+            background-color: #ffa96b;
+            border:5px solid #020711;
+            height: 100px;
+            padding: 30px;
+            border-top-width: 40px;
+            font-size: 2rem;
+            text-shadow:0 2px 8px #111827;
+            border-radius:45px;
+            direction: rtl;
+            text-align: center;
+            font-family: 'samim';
+        }
+        h3{
+            /* color: #f8fafc; */
+            /* background-color:  #2a230f; */
+            /* border: peru dashed ; */
+            /* text-shadow: 0 2px 8px #9e7401; */
+            /* height: 100px; */
+            /* padding: 20px; */
+            /* border-radius: 80%; */
+            /* direction: rtl; */
+            /* text-align: center; */
+            /* font-style: italic; */
+            /* font-size: 3rem; */
+            /* text-decoration-line: line-through; */
+            /* text-overflow: clip; */
+            /* font-family: 'Yekan'; */
+        }
+        h4{
+            color: rgb(1, 31, 31);
+            background-color: rgb(119, 245, 245);
+            border:  rgb(91, 92, 92) dotted 3px;
+            border-left: double 10px;
+            border-right: double 10px;
+            direction: rtl;
+            text-align: center;
+            font-variant-ligatures: contextual;
+            font-size: 4rem;
+            font-style: oblique;
+            padding: 10px;
+            border-radius: 100px;
+            text-shadow: 3px 3px 3px #020711;
+            font-family: 'Shabnam.Bold';
+        }
+        .h5{
+            color:#fff;   
+            font-size: 2rem;
+            padding: 15px;
+            border: 2px solid #ff00ff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+            text-shadow: 0 0 5px #fff;
+            background: #222;
+            display:grid;
+            direction: rtl;
+            text-align: center;
+            margin-left: 345px;
+            width: 500px;
+            height: 40px;
+            font-family: 'Tanha';
+        }
+        .h15{
+            color:#eceaea;   
+            font-size: 2rem;
+            padding: 15px;
+            border: 2px solid #ff0000;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #3d0101, 0 0 20px #3d0101;
+            text-shadow: 0 0 5px #facece;
+            background: #0e0000;
+            display:grid;
+            direction: rtl;
+            text-align: center;
+            margin-left: 345px;
+            width: 500px;
+            height: 40px;
+            font-family: 'Tanha';
+        }
+        h6{
+            font-size: 20px;
+            color: #050505ef;
+            font-weight: bold;
+            padding: 8px 14px;
+            border: 8px double rgb(5, 175, 5);
+            border-radius: 10%;
+            display: inline-block;
+            background-color: #fc04a967;
+            box-shadow: 0 2px 8px greenyellow;
+            text-align: center;
+            direction: rtl;
+            width: 900px;
+            height: 30px;
+            margin-left: 140px;
+            font-family: 'kiana';
+        }

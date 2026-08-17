@@ -1,0 +1,115 @@
+.aTagindex {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;            
+    /* width: auto; */
+    /* height: auto; */
+    fontsize: 1rem;
+    color: rgb(226, 74, 4);
+    text-shadow: 5px 0px 8px rgb(47, 124, 240);
+    /* border: 2px  rgb(111, 172, 251); */
+    /* text-decoration: none; */
+    /* text-align: center; */
+    font-family : 'Yekan';
+    padding:10px;
+}
+.bodystyle{
+    background-color:rgb(191, 205, 236);
+}
+.divone1{
+    flex-direction: row;
+    justify-content: center;
+    float:right;
+    font-family: "Tanha";
+    margin-top:15px;
+}
+.divone{
+    border-radius:30px;
+    filter: brightness(110%) blur(5px);
+    border: solid orangered 5px;
+    
+}
+.divtwo2{
+    float: left;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:15px;
+}
+.divtwo{
+border-radius: 30px;
+filter: brightness(110%) blur(5px);
+border: solid orangered 5px ;
+}
+.mainback{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:15px;
+}
+.logoitems{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family : 'Yekan';
+    color: rgb(6, 6, 6);
+    border-radius:5px;
+    border: solid 3px black ;
+    padding: 10px;
+}
+.footer-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:15px;
+}
+
+.aTagindex:hover {
+    color: rgb(5, 148, 243);
+    text-shadow: none;
+    transform: translateX(-10px);
+}
+.header-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    gap:25px;
+}
+@media (max-width:600px) {
+    .header-items {
+        flex-direction: column;
+        gap: 3px;
+    }
+
+    .nav-items {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .er-items{
+    font-size: 1rem;
+    font-family: 'Yekan';
+    color: rgb(6, 77, 136);
+    text-shadow: 5px 0px 8px rgb(1, 1, 31);
+}
+    .tamas-items {
+    font-size: 1rem;
+    font-family: 'Yekan';
+    color: rgb(6, 77, 136);
+    text-shadow: 5px 0px 8px rgb(1, 1, 31);
+    display: none;
+}
+}

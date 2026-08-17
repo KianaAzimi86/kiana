@@ -1,0 +1,35 @@
+.imgMain{
+    width: 100%;
+    height: auto;
+    border-radius: 8% ;
+    /* opacity: 50%; */
+    filter: brightness(110%) blur(5px);
+    position: fixed;
+}
+.div1_11{
+    width: 34%;
+    height:290px;
+    position: fixed;
+    border-radius:30px;
+    filter: brightness(110%) blur(5px);
+    border: solid black 5px;
+    margin-right: 450px;
+}
+.div1_22{
+    width: 34%;
+    height: auto;
+    position: fixed;
+    filter: brightness(110%) blur(5px);
+    border-radius: 30px;
+    border: solid black 5px;
+    margin-left: 443px;
+}
+.div22{
+ width: 34%;
+    height: 290px;
+    position: fixed;
+    filter: brightness(110%) blur(5px);
+    border-radius: 30px;
+    border: solid black 5px;
+    margin-left: 886px;
+}

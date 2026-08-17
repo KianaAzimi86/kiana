@@ -1,0 +1,51 @@
+body{
+    direction: rtl;
+}
+td,th{
+    border: solid rgb(68, 215, 252);
+    font-family: 'Tanha';
+}
+table{
+    border: 5px solid rgb(1, 38, 53);
+    border-collapse: collapse;
+    width: 80%;
+    height: 200px;
+    margin-top: 50px;
+    animation-name: tableAnimation;
+    animation-duration: 3s;
+}
+tbody{
+    background-color: pink;
+}
+ tbody tr:hover{
+    background-color: rgb(231, 70, 124);
+    font-size: 2rem;
+    text-shadow: 3px 3px 3px rgb(12, 0, 2)
+    
+}
+td{
+    text-align: center;
+    /* border-bottom: 2px solid purple; */
+}
+ thead :hover{
+    background-color: rgb(60, 73, 252);
+}
+
+@keyframes tableAnimation{
+    0% {
+        font-size: 2px;
+    }
+    25%{
+        font-size: 5px;
+    }
+    50%{
+        font-size: 8px;
+    }
+    70%{
+        font-size: 11px;
+    }
+    100%{
+        font-size: 14px;
+    }
+}
+ 

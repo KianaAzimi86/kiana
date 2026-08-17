@@ -1,0 +1,68 @@
+.div2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    float: right;
+    /* background-color: blueviolet;  */
+    width: 30%;
+    height: auto;
+    font-family: "vazir";
+    font-size: 1rem;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    margin-left: 910px;
+    -webkit-text-stroke: 0.75px black;
+    margin-top: 25px;
+    width: 350px;
+}
+
+.div1 {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: palevioletred; */
+    width: 70%;
+    /* height:auto; */
+}
+
+.div1_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    float: left;
+    /* background-color: aquamarine; */
+    width: 50%;
+    height: auto;
+    font-family: "Tanha";
+    font-size: 1rem;
+    z-index: 1;
+    width: 350px;
+    position: absolute;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 450px;
+    color: black;
+    -webkit-text-stroke: 0.75px rgb(2, 2, 2);
+}
+
+.div1_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    float: right;
+    /* background-color: blue; */
+    width: 50%;
+    height: auto;
+    font-family: "Samim";
+    font-size: 1rem;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    margin-left: 560px;
+    margin-right: 100px;
+    width: 200px;
+    margin-top: 62px;
+    -webkit-text-stroke: 0.75px black;
+}
