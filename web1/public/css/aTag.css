@@ -17,35 +17,32 @@
 .bodystyle{
     background-color:rgb(191, 205, 236);
 }
-.divone1{
-    flex-direction: row;
-    justify-content: center;
-    float:right;
-    font-family: "Tanha";
-    margin-top:15px;
-}
 .divone{
     border-radius:30px;
     filter: brightness(110%) blur(5px);
     border: solid orangered 5px;
-    
+    width: 90%;
+    height: 90%;
+    margin-left:30px;
 }
-.divtwo2{
-    float: left;
-    flex-direction: row;
-    justify-content: center;
-    margin-top:15px;
+.divone:hover{
+    filter: blur(1px);
+}
+.divtwo:hover{
+    filter: blur(1px);
 }
 .divtwo{
 border-radius: 30px;
 filter: brightness(110%) blur(5px);
 border: solid orangered 5px ;
+width: 90%;
+height: 90%;
 }
 .mainback{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap:15px;
+    gap:5px;
 }
 .logoitems{
     display: flex;
@@ -112,4 +109,7 @@ border: solid orangered 5px ;
     text-shadow: 5px 0px 8px rgb(1, 1, 31);
     display: none;
 }
+    .mainback{
+        flex-direction: column;
+    }
 }
